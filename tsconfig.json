@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "ESNext"
+    ],
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "types": [
+      "bun-types" // add Bun global
+    ]
+  }
+}
