@@ -4,6 +4,7 @@ import chalk from 'chalk';
 
 
 // Move Configuration: pressdown (true = hold key toggle, false = single press), color: Colour shown in console, Applescript KeyCode
+// Keycodes from https://eastmanreference.com/complete-list-of-applescript-key-codes
 const keyConfig = {
   "L": { pressDown: false, color: chalk.hex('#FF8800'), keyCode: 0 }, // A
   "L'": { pressDown: false, color: chalk.hex('#FFD580'), keyCode: 14 }, // E
