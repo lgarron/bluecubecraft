@@ -11,8 +11,6 @@ make dev
 ```
 Note that you'll probably have to grant scripting access in System Settings to whichever app you run this from.
 
-Move Configuration: pressdown (true = hold key toggle, false = single press), color: Colour shown in console, Applescript KeyCod
-
 ## Key Configuration
 `keyConfig` is used to configure the behavior of the keys
 ### Pressdown
@@ -20,7 +18,7 @@ Move Configuration: pressdown (true = hold key toggle, false = single press), co
 - `false`: The key will be pressed and then immediately released.
 By default, all but U move, is false.
 ### Color
-Color logged as per move, using [`chalk`](https://github.com/chalk/chalk)
+Color logged depending on the move, using [`chalk`](https://github.com/chalk/chalk)
 ### keyCode
 Corresponding ['applescript keycode](https://eastmanreference.com/complete-list-of-applescript-key-codes).
 
