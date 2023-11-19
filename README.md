@@ -1,7 +1,7 @@
 # `bluecubecraft`
 
 1. Install [`bun`](https://bun.sh/) (consider [using Homebrew](https://github.com/oven-sh/homebrew-bun#install)).
-2. Install ['chalk'](https://github.com/chalk/chalk)
+2. Install [`chalk`](https://github.com/chalk/chalk)
 3. Run:
 
 ```shell
@@ -20,7 +20,7 @@ Move Configuration: pressdown (true = hold key toggle, false = single press), co
 - `false`: The key will be pressed and then immediately released.
 By default, all but U move, is false.
 ### Color
-Color logged as per move, using ['chalk'](https://github.com/chalk/chalk)
+Color logged as per move, using [`chalk`](https://github.com/chalk/chalk)
 ### keyCode
 Corresponding ['applescript keycode](https://eastmanreference.com/complete-list-of-applescript-key-codes).
 
